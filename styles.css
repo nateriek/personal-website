@@ -127,18 +127,26 @@ ul li a:hover{
     font-weight: 400;
     line-height: 3rem;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--primary-color);
 }
 
 .title span{
     font-weight: 600;
 }
 
-.description{
+.description {
+    margin-top: 1rem;
     line-height: 1.5rem;
     color: var(--primary-text);
     margin-bottom: 2rem;
     font-size: 1.5rem;
+    text-align: justify;
 }
 
 .contact-details {
@@ -181,7 +189,7 @@ ul li a:hover{
         top: 85px;
         background-color: var(--primary-background);
         flex-direction: column;
-        justify-content: center;
+        justify-content: justify;
         gap: 3rem;
     }
 
