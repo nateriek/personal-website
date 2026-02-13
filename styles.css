@@ -21,6 +21,7 @@ a{
 
 body{
     font-family: "Google Sans", sans-serif;
+    background-color: var(--primary-background);
 }
 
 nav{
@@ -90,13 +91,13 @@ ul li a:hover{
 }
 
 .section__container {
-    min-height: 100vh;
+    min-height: 75vh;
     max-width: var(--max-width);
     margin: auto;
-    padding: 1rem;
+    padding: 0rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 4rem;
+    gap: 0rem;
 }
 
 .contact-section {
@@ -148,6 +149,24 @@ ul li a:hover{
     font-size: 1.5rem;
     text-align: left;
 }
+
+.cv {
+    display: inline;
+    width:fit-content;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    color: var(--primary-text);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.cv:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
 
 .contact-details {
     display: flex;
@@ -202,7 +221,7 @@ ul li a:hover{
     }
 
     .section__container{
-        padding: 10rem 1rem 5rem 1rem;
+        padding: 5rem 1rem 1rem 1rem;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
