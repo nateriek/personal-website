@@ -151,7 +151,7 @@ ul li a:hover{
 
 .contact-details {
     display: flex;
-    text-align: left;
+    text-align: center;
     gap: 2rem;
     margin-top: 2rem;
 }
